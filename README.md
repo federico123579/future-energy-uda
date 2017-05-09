@@ -43,4 +43,7 @@ Il ruolo del designer sarà fondamentale per l'esperienza dell'utente finale. Il
 
 Questo è uno dei ruoli più divertente e difficile allo stesso tempo, ha bisogno di molta attenzione perchè anche l'occhio vuole la sua parte, meglio sarà costruito il design, migliore sarà il risultato finale.
 
+# Sviluppo
+1. Per chi è interessato al codice a ai frameworks utilizzati visitare [development](docs/development.md)
+
 [shared]: https://drive.google.com/drive/folders/0B0ROql6jecESSTZ2Qk51aC1Wd1k?usp=sharing
