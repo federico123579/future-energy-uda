@@ -1,0 +1,52 @@
+$font-color: rgb(58, 58, 58);
+$title-color: rgba(255, 255, 255, 0.8);
+
+.backbone {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+.vertebra {
+  width: auto;
+  height: 640px;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  width: auto;
+  height: auto;
+  background-color: rgb(52, 227, 154);
+}
+
+div.title {
+  margin: auto;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  color: $font-color;
+}
+
+h1.title {
+  font-size: 8em;
+  color: $title-color;
+}
+
+video.fullscreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
