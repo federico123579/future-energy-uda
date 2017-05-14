@@ -16,8 +16,7 @@
   align-content: stretch;
   width: auto;
   height: auto;
-  /*background-color: #34e39a; */
-}
+  background-color: #34e39a; }
 
 div.title {
   margin: auto;
@@ -30,16 +29,5 @@ body {
 h1.title {
   font-size: 8em;
   color: rgba(255, 255, 255, 0.8); }
-
-video.fullscreen {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=main.css.map */
