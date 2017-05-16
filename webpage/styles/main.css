@@ -24,27 +24,47 @@ html {
   z-index: -1; }
 
 #layer_0 {
+  z-index: 1;
   background-image: url("../assets/img/parallax/layer_0.png");
   background-color: #FEDCC8; }
 
 #layer_1 {
+  z-index: 3;
   background-image: url("../assets/img/parallax/layer_1.png"); }
 
 #layer_2 {
+  z-index: 3;
   background-image: url("../assets/img/parallax/layer_2.png"); }
 
 #layer_3 {
+  z-index: 3;
   background-image: url("../assets/img/parallax/layer_3.png"); }
 
 #layer_4 {
+  z-index: 3;
   background-image: url("../assets/img/parallax/layer_4.png"); }
 
 #layer_5 {
+  z-index: 3;
   background-image: url("../assets/img/parallax/layer_5.png"); }
 
 #layer_6 {
+  z-index: 3;
   background-image: url("../assets/img/parallax/layer_6.png");
   position: absolute; }
+
+.title-container {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 2; }
+
+#parallax-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: #2D112B; }
 
 .maincontainer {
   position: relative;
