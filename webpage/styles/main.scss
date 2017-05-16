@@ -1,84 +1,87 @@
-$font-color: rgb(58, 58, 58);
-$title-color: rgba(255, 255, 255, 0.8);
+$background-parallax: #FEDCC8;
+$background: #2D112B;
+$font-color: rgb(255, 131, 41);
 
 html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::after,
+*::before {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
 }
+// ========
+// PARALLAX
+// ========
 
 .parallax {
-  perspective: 100px;
+  overflow: hidden;
   position: relative;
-  z-index: 10;
   height: 1000px;
 }
 
 .parallax_layer {
-  height: 1000px;
-  position: fixed;
   background-position: bottom center;
-  background-size: auto 438px;
-  background-repeat: repeat-x;
+  background-size: auto;
+  /* 438px */
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 1000px;
   width: 100%;
+  z-index: -1;
 }
 
 #layer_0 {
   background-image: url('../assets/img/parallax/layer_0.png');
-  background-color: #FEDCC8;
-  transform: translateZ(-300px) scale(4);
+  background-color: $background-parallax;
 }
 
 #layer_1 {
   background-image: url('../assets/img/parallax/layer_1.png');
-  transform: translateZ(-250px) scale(3.5);
 }
 
 #layer_2 {
   background-image: url('../assets/img/parallax/layer_2.png');
-  transform: translateZ(-200px) scale(3);
 }
 
 #layer_3 {
   background-image: url('../assets/img/parallax/layer_3.png');
-  transform: translateZ(-150px) scale(2.5);
 }
 
 #layer_4 {
   background-image: url('../assets/img/parallax/layer_4.png');
-  transform: translateZ(-100px) scale(2);
 }
 
 #layer_5 {
   background-image: url('../assets/img/parallax/layer_5.png');
-  transform: translateZ(-50px) scale(1.5);
 }
 
 #layer_6 {
   background-image: url('../assets/img/parallax/layer_6.png');
-  transform: translateZ(0px) scale(1);
+  position: absolute;
 }
+// ====
+// MAIN
+// ====
 
-.parallax_cover {
-  background: #2D112B;
+.maincontainer {
   position: relative;
-  top: 100%;
-  left: 0;
-  right: 0;
-  height: 2000px;
+  background-color: $background;
+  z-index: 98;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  z-index: 99;
+  position: relative;
+  color: $font-color;
 }
 
 
-// .maincontainer {
-//   position: relative;
-//   background-color: #2D112B;
-//   z-index: 98;
-// }
-//
 // .backbone {
 //   display: flex;
 //   flex-direction: column;
@@ -115,56 +118,4 @@ html {
 // h1.title {
 //   font-size: 8em;
 //   color: $title-color;
-// }
-//
-//
-// html,
-// body{
-//   background-color: #FEDCC8;
-// }
-//
-// .parallax {
-//   perspective: 100px;
-//   height: 100vh;
-//   overflow-x: hidden;
-//   overflow-y: auto;
-//   position: relative;
-//   top: 0;
-//   left: 50%;
-//   right: 0;
-//   bottom: 0;
-//   margin-left: -1500px;
-// }
-//
-// .parallax__layer{
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//
-//   img{
-//     display: block;
-//     position: absolute;
-//     bottom: 0;
-//   }
-// }
-//
-// .parallax__cover{
-//   background: #2D112B;
-//   position: absolute;
-//   top: 100%;
-//   left: 0;
-//   right: 0;
-//   height: 2000px;
-//   z-index: 2;
-// }
-//
-// $parallax__layers: 6;
-//
-// @for $i from 0 through $parallax__layers {
-//   $x: ($parallax__layers - $i) / 2;
-//   .parallax__layer__#{$i}{
-//      transform: translateZ(#{-100 * $x}px) scale($x + 1);
-//   }
 // }
