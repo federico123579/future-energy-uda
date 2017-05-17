@@ -1,6 +1,8 @@
 $background-parallax: #FEDCC8;
 $background: #2D112B;
-$font-color: rgb(255, 131, 41);
+$font-color: #FEDCC8;
+
+@import "font";
 
 html {
   box-sizing: border-box;
@@ -12,6 +14,10 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+}
+
+body  {
+  font-family: 'Roboto', sans-serif;
 }
 // ========
 // PARALLAX
@@ -80,7 +86,7 @@ html {
 }
 
 #parallax-title {
-  font-family: sans-serif;
+  font-family: Blanka;
   font-weight: bold;
   font-size: 5em;
   color: $background;
@@ -96,13 +102,25 @@ html {
 }
 
 .main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 100px;
   z-index: 99;
   position: relative;
   color: $font-color;
+  font-size: 1.3em;
 }
 
+.separator {
+  width: 90%;
+  height: 3px;
+  margin: 40px auto;
+  background-color: $font-color;
+}
+
+p {
+  text-align: justify;
+}
 
 // .backbone {
 //   display: flex;

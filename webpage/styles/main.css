@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: "Blanka";
+  src: url("../assets/fonts/Blanka-Regular.otf"); }
 html {
   box-sizing: border-box; }
 
@@ -7,6 +11,9 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
 
 .parallax {
   overflow: hidden;
@@ -61,7 +68,7 @@ html {
   z-index: 2; }
 
 #parallax-title {
-  font-family: sans-serif;
+  font-family: Blanka;
   font-weight: bold;
   font-size: 5em;
   color: #2D112B; }
@@ -72,10 +79,21 @@ html {
   z-index: 98; }
 
 .main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 100px;
   z-index: 99;
   position: relative;
-  color: #ff8329; }
+  color: #FEDCC8;
+  font-size: 1.3em; }
+
+.separator {
+  width: 90%;
+  height: 3px;
+  margin: 40px auto;
+  background-color: #FEDCC8; }
+
+p {
+  text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */
