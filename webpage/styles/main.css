@@ -33,7 +33,7 @@ body {
 #layer_0 {
   z-index: 1;
   background-image: url("../assets/img/parallax/layer_0.png");
-  background-color: #FEDCC8; }
+  background-color: #C1E8EC; }
 
 #layer_1 {
   z-index: 3;
@@ -71,11 +71,11 @@ body {
   font-family: Blanka;
   font-weight: bold;
   font-size: 5em;
-  color: #2D112B; }
+  color: #32422D; }
 
 .maincontainer {
   position: relative;
-  background-color: #2D112B;
+  background-color: #32422D;
   z-index: 98; }
 
 .main {
