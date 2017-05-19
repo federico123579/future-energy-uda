@@ -46,4 +46,8 @@ Questo è uno dei ruoli più divertente e difficile allo stesso tempo, ha bisogn
 # Sviluppo
 1. Per chi è interessato al codice a ai frameworks utilizzati visitare [development](docs/development.md)
 
+## Colori
+- [verde](https://coolors.co/5bba6f-3fa34d-2a9134-137547-32422d)
+- [verde -> azzurro](https://coolors.co/59e873-008dd5-007b89-041918-7c8679)
+
 [shared]: https://drive.google.com/drive/folders/0B0ROql6jecESSTZ2Qk51aC1Wd1k?usp=sharing

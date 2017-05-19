@@ -1,6 +1,6 @@
 $background-parallax: #C1E8EC;
 $background: #32422D;
-$font-color: #FEDCC8;
+$font-color: #C1E8EC;
 
 @import "font";
 
@@ -102,7 +102,7 @@ body  {
 }
 
 .main {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 100px;
   z-index: 99;
