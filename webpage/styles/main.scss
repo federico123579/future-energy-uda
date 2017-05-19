@@ -1,6 +1,12 @@
 $background-parallax: #C1E8EC;
 $background: #32422D;
 $font-color: #C1E8EC;
+$title-color: #008DD5;
+$shade-color-0: #32422D;
+$shade-color-1: #137547;
+$shade-color-2: #2A9134;
+$shade-color-3: #3FA34D;
+
 
 @import "font";
 
@@ -89,7 +95,7 @@ body  {
   font-family: Blanka;
   font-weight: bold;
   font-size: 5em;
-  color: $background;
+  color: $title-color;
 }
 // ====
 // MAIN
@@ -97,7 +103,6 @@ body  {
 
 .maincontainer {
   position: relative;
-  background-color: $background;
   z-index: 98;
 }
 
@@ -109,6 +114,23 @@ body  {
   position: relative;
   color: $font-color;
   font-size: 1.3em;
+}
+
+.shade_0 {
+  background-color: $shade-color-0;
+}
+
+.shade_1 {
+  background-color: $shade-color-1;
+}
+
+.shade_2 {
+  background-color: $shade-color-2;
+}
+
+
+.shade_3 {
+  background-color: $shade-color-3;
 }
 
 .separator {
