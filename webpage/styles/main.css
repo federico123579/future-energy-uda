@@ -77,7 +77,7 @@ body {
 #parallax-title {
   font-family: Blanka;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 4em;
   color: #008DD5;
   text-align: center; }
 
@@ -119,6 +119,9 @@ p {
 
   .main {
     padding: 100px;
-    font-size: 1.3em; } }
+    font-size: 1.3em; }
+
+  #parallax-title {
+    font-size: 5em; } }
 
 /*# sourceMappingURL=main.css.map */
