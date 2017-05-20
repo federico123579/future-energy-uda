@@ -1,0 +1,22 @@
+@media (min-width: 48em) {
+  .noparallax {
+    display: none;
+  }
+
+  .parallax {
+    display: block;
+  }
+
+  .title-container {
+    position: fixed;
+  }
+
+  .parallax_layer {
+    position: fixed;
+  }
+
+  .main {
+    padding: 100px;
+    font-size: 1.3em;
+  }
+}
