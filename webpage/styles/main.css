@@ -18,7 +18,8 @@ body {
 .noparallax {
   overflow: hidden;
   position: relative;
-  height: 1000px; }
+  height: 1000px;
+  margin-top: -250px; }
 
 .parallax {
   overflow: hidden;
