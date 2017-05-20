@@ -74,6 +74,7 @@ body {
   color: #008DD5; }
 
 .maincontainer {
+  background-color: #041918;
   position: relative;
   z-index: 98; }
 
@@ -85,18 +86,6 @@ body {
   position: relative;
   color: #C1E8EC;
   font-size: 1.3em; }
-
-.shade_0 {
-  background-color: #32422D; }
-
-.shade_1 {
-  background-color: #137547; }
-
-.shade_2 {
-  background-color: #2A9134; }
-
-.shade_3 {
-  background-color: #3FA34D; }
 
 .separator {
   width: 90%;
