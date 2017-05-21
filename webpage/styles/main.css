@@ -131,7 +131,7 @@ img {
 .title {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #008DD5;
   text-align: center;
   padding: 1em; }
@@ -139,7 +139,7 @@ img {
 .subtitle {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.2em;
   color: #008DD5;
   text-align: center;
   padding: 1em; }
@@ -162,6 +162,15 @@ img {
     font-size: 1.3em; }
 
   #parallax-title {
-    font-size: 5em; } }
+    font-size: 5em; }
+
+  .title {
+    font-size: 2.5em; }
+
+  .subtitle {
+    font-size: 2em; }
+
+  img {
+    width: 20em; } }
 
 /*# sourceMappingURL=main.css.map */
