@@ -1,6 +1,6 @@
 $background-parallax: #C1E8EC;
 $background: #041918;
-$font-color: #C1E8EC;
+$font-color: #FFF;
 $title-color: #008DD5;
 
 
@@ -20,7 +20,43 @@ html {
 
 body  {
   font-family: 'Roboto', sans-serif;
+  text-align: justify;
 }
+
+ul {
+  list-style-position: inside;
+}
+
+b {
+  color: $title-color;
+}
+
+i {
+  color: $background-parallax;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid $title-color;
+  text-align: center;
+  padding: 1rem;
+}
+
+th {
+  background-color: $title-color;
+  color: $font-color;
+}
+
+img {
+  margin: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 20em;
+}
+
 // ========
 // PARALLAX
 // ========
@@ -96,9 +132,9 @@ body  {
 }
 
 #parallax-title {
-  font-family: Blanka;
+  font-family: 'Blanka', sans-serif;
   font-weight: bold;
-  font-size: 5em;
+  font-size: 4em;
   color: $title-color;
   text-align: center;
 }
@@ -125,12 +161,26 @@ body  {
 .separator {
   width: 90%;
   height: 3px;
-  margin: 40px auto;
-  background-color: $font-color;
+  margin: 60px auto;
+  background-color: $title-color;
 }
 
-p {
-  text-align: justify;
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2.5em;
+  color: $title-color;
+  text-align: center;
+  padding: 1em;
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: $title-color;
+  text-align: center;
+  padding: 1em;
 }
 
 @import "media";
